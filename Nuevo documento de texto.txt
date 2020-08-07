@@ -1,0 +1,48 @@
+    image (inicio, 0,0);
+    image (inicio, 0,0,700,720);
+    image (fantasma,250,420,100,200);
+    textAlign(CENTER);
+    textSize(80);
+    fill(104,47,104);
+    smooth();
+    text("Ghost Lost",200,160);   
+
+
+
+    fill(104,47,104);
+
+/*void mostrarpantalla11(){
+  if(pantalla==11);
+   background (0);
+   text ("finalmente al recordar tu identidad",350,150);
+   text ("no estas atado a este mundo terrenal",350,200);
+   text ("y podes ir a descansar junto con tu familia",350,250);
+   
+ }
+*/
+void clickpantalla10(){
+  if (pantalla==10 && (mouseX>500 && mouseX<700 && mouseY>400 && mouseY<700));
+ { pantalla =11;}
+}
+void mostrarpantalla7(){
+  if (pantalla==7){
+  background (0);
+  textFont(font1, 25);
+  fill (104,47,104);
+  text ("Cuando bajas encontrás un perro y no es uno cualquiera", 350,100);
+  text ("Cuando te ve flota rápidamente hacia vos", 350, 150);
+  text ("Notás que en el collar lleva una placa con el nombre de Argos",350,250);
+  text ("Inmediatamente sabes que es tu mejor amigo",350, 300);
+  text ("nunca mas vas a tener que sentirte solo", 350,350);
+  text ("Ahora es el momento de decidir si quedarte con él en la casa", 350,450);
+  text ("o seguir explorando para buscar alguna pista más sobre vos",350,500);
+  text ("seguir",105,660);
+  stroke (104,47,104);
+  fill (0);
+  rect (250,600,200,75);
+  rect (50,600,150,75);
+  fill (104,47,104);
+  textFont(font1, 40);
+  text ("Seguir",125,650);
+  text ("Quedarte", 350,650);
+  
